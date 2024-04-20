@@ -1,0 +1,118 @@
+.import-all-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 5px;
+  z-index: 9999;
+  padding: 7px;
+  text-align: center;
+  width: 230px;
+  background-color: #007fff;
+  color: #fff;
+  border: 1px solid #a5b1c2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.import-epacket-shipping-btn {
+  position: fixed;
+  bottom: 70px;
+  left: 5px;
+  z-index: 9999;
+  padding: 7px;
+  text-align: center;
+  width: 230px;
+  color: #fff;
+  background-color: #f39c12;
+  border: 1px solid #a5b1c2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.enable-single-select-btn {
+  position: fixed;
+  bottom: 120px;
+  left: 5px;
+  z-index: 9999;
+  padding: 7px;
+  text-align: center;
+  width: 230px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #a5b1c2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.import-waiting-list-btn {
+  display: none;
+  position: fixed;
+  bottom: 170px;
+  left: 5px;
+  z-index: 9999;
+  padding: 7px;
+  text-align: center;
+  width: 230px;
+  color: #fff;
+  background-color: #2980b9;
+  border: 1px solid #a5b1c2;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.add-waiting-list-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  background: #2980b9;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.circle::before {
+  content: "+";
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: courier;
+  color: white;
+}
+
+.count-waiting-list {
+  background: #fff;
+  color: #000;
+  padding: 2px 8px;
+  margin-left: 5px;
+  border-radius: 50px;
+}
+
+/* Detail Page */
+
+.import-to-shop-btn {
+  background: #007fff;
+  color: #fff;
+  font-size: 16px;
+  padding: 7px;
+}

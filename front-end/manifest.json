@@ -1,0 +1,33 @@
+{
+  "name": "WooEcommerce",
+  "version": "0.1.0",
+  "description": "Crawl data products ecommerce",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://*.aliexpress.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.aliexpress.com/*"],
+      "js": ["contentScript.js", "components/aliExpress/index.js"],
+      "css": ["contentScript.css", "components/aliExpress/style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["https://*.aliexpress.com/*"],
+      "resources": ["components/axios.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "WooEcommerce",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 3
+}
